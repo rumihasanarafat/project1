@@ -1,0 +1,66 @@
+
+/* responsive sub menu */
+.menu ul ul ul ul{
+	background-color:#f9ca24;
+	position: absolute;  /*optional color change ba design use */
+	top: 0;
+	left: -100%;
+	display: none;
+}
+.menu ul ul ul{
+	background-color: #e056fd;
+	position: absolute;
+	top: 0;
+	left: 100%
+} 
+/* sub - sub menu */
+.menu ul li:hover > ul{
+	display: block;   /* > use korle tar porer ul gulo click korle dekha jabe */
+}
+.menu ul ul{
+	position: absolute;
+	top: 100%;
+	left: 0:;
+	background-color: #30336b;
+	width: 280px;               /*optional*/
+	display: none;
+}
+.menu ul li{
+	position: relative;
+}
+.menu ul ul li{
+	float: none;
+}
+/* sub-menu*/
+.menu ul li a:hover{
+	background-color: #ffbe76;
+}
+.menu ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	margin: 0;
+	padding: 10px;
+	display: block;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul:after{
+	content: '';
+	clear: both;       /*overflow:hiddden; eita use korbo nah*/
+	display: block;
+}
+.menu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.menu{
+	background-color: #eb4d4b;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "arial";
+}
